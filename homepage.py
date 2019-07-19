@@ -2,7 +2,7 @@ from flask import Flask, render_template
  
 app = Flask(__name__)
 
-@app.route('/home')
+@app.route('/')
 def pager():
     return render_template('pager.html')
 
